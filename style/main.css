@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.app__container{
+    width:100%;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+header{
+    display:flex;
+    justify-content:center;
+    border-bottom:1px solid grey;
+}
+.navigation{
+    list-style: none;
+}
+.navigation li{
+    display:inline-block;
+}
+li a{
+    text-decoration:none;
+    color:black;
+    border:1px solid grey;
+    display: block;
+    padding:1em 2em;
+    margin:1em 2em 0 2em;
+}
+a:hover{
+    background: #8C8681;
+}
+div.container{
+    width:40%;
+    margin:0 auto;
+    margin-top:2em;
+}
+.add__input-button{
+    background: #D9D1C7;
+    padding:1em;
+    color:black;
+    border:1px solid grey;
+    box-shadow:none;
+    text-decoration: none;
+    outline:none;
+    margin:1em 1em 0 0;
+}
+.form{
+    border:1px solid grey;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    padding:1em;
+    margin-top:1em;
+    width:70%;
+    margin:1em auto;
+}
+label{
+    width:30%;
+}
+input, select{
+    width:70%;
+    margin-bottom:1em;
+}
+.sub-form{
+    width:70%;
+    border:1px solid grey;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    padding:1em;
+}
+.sub-form label{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.answer{
+    width:30%;
+}
+.condition{
+    width:50%;
+}
